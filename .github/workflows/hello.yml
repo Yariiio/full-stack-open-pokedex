@@ -10,17 +10,5 @@ jobs:
         runs-on: ubuntu-20.04
         steps:
             - name: Say hello
-            run: |
-                echo "Hello World!"
-   
-        runs-on: ubuntu-20.04
-        steps:
-            - name: Now it is
-            run: |
-                date
-  
-        runs-on: ubuntu-20.04
-        steps:
-            - name: Directory content
-            run: |
-                ls -l
+              run: |
+                  echo "Hello World"
